@@ -7,10 +7,10 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
+  // url      = env("DATABASE_URL")
   // url      = env("prisma://aws-us-east-1.prisma-data.com/?api_key=GhIZAUCJEz7tr7DBAuSB3PMEYuxKgDeLFyecpi9Rlg9F5Yh5uCoSnkqTLWcUXCO_")
   // url      = "prisma://aws-us-east-1.prisma-data.com/?api_key=GhIZAUCJEz7tr7DBAuSB3PMEYuxKgDeLFyecpi9Rlg9F5Yh5uCoSnkqTLWcUXCO_"
-  // url      = "postgres://ktybhjlqbairsr:c417fa1d6534e3c68f594dc4800078b907e98d266fe5cd5194b2f62d8c19f810@ec2-35-169-212-189.compute-1.amazonaws.com:5432/dauf0cdp8c7a22"
+  url      = "postgres://ktybhjlqbairsr:c417fa1d6534e3c68f594dc4800078b907e98d266fe5cd5194b2f62d8c19f810@ec2-35-169-212-189.compute-1.amazonaws.com:5432/dauf0cdp8c7a22"
 }
 
 model Feedback {
